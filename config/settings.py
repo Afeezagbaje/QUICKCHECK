@@ -39,10 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Local apps
-    'hackernews',
+    'hackernews.apps.HackernewsConfig',
     
     # Third party apps
     'rest_framework',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
